@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Grocery</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header class="navigation">
+        <div class="page-title">E-Grocery</div>
+         <div class="nav">
+            <a href="#title" class="nav-item">Home</a>
+            <a href="#content-left" class="nav-item">Our Package</a>
+            <a href="/" class="nav-item">Call Us</a>
+        </div>       
+    </header>
+    <main>
+        <div id="title" class="content-title">
+            <div>
+                 <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+            </div>
+            <div>
+                <span>Everyday with best ingredient</span>
+            </div>
+        </div>
+        <div id="content" class="content">
+            <div id="content-left" class="content-left">
+                <div id="content-image" class="content-image">
+                    <img src="asset/download (1).png" class="image active" alt="slider image">
+                    <img src="asset/1269202-200.png" class="image">
+                    <span>Fresh Everyday</span>
+                </div>
+            </div>
+            <div id="content-right" class="content-right">
+                <form name="contact-form" class="content-form">
+                    <label for="your-name">Your Name:</label>
+                    <input id="your-name" type="text" name="your-name" placeholder="First and last name">
+                    <p id="name-error" class="error-message"></p>
+
+                    <label for="email">Email Address:</label>
+                    <input id="email" type="email" name="email" placeholder="example@email.com">
+                    <p id="email-error" class="error-message"></p>
+
+                    <label for="interest">What are you interested in?</label>
+                    <select type="select" name="interest">
+                        <option value="">--select interest--</option>
+                        <option value="football">Football</option>
+                        <option value="badminton">Badminton</option>
+                    </select>
+                    <p id="interest-error" class="error-message"></p>
+
+                    <button id="button" type="submit" class="button">SEND</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <div id="our-product">
+            <div class="circle">
+                1
+            </div>
+        </div>
+    <footer></footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
